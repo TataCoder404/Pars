@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainForm</class>
+ <widget class="QWidget" name="MainForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>excel_papser</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="1" column="2">
+    <widget class="QLineEdit" name="lineEdit_inn">
+     <property name="focusPolicy">
+      <enum>Qt::StrongFocus</enum>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="3">
+    <widget class="QPushButton" name="pushButton_choose_file">
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="text">
+      <string>...</string>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="0" colspan="2">
+    <widget class="QPushButton" name="pushButton_info">
+     <property name="text">
+      <string>О программе</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <widget class="QLabel" name="label_inn">
+     <property name="text">
+      <string>Введите ИНН</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="2">
+    <widget class="QLineEdit" name="lineEdit_path">
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="0">
+    <widget class="QLabel" name="label_file_path">
+     <property name="text">
+      <string>Выберите файл</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="3">
+    <widget class="QPushButton" name="pushButton_ready">
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="text">
+      <string>Готово</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="0" colspan="4">
+    <widget class="QLabel" name="label">
+     <property name="text">
+      <string>Вывод:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="2" colspan="2">
+    <widget class="QPushButton" name="pushButton_close">
+     <property name="text">
+      <string>Закрыть</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="0" colspan="4">
+    <widget class="QTextEdit" name="textEdit_output">
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
